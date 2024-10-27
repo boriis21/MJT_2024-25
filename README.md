@@ -15,6 +15,12 @@ The Java version used throughout the course is **Java 23**, providing access to 
 
 You can explore more about the course structure and content [here](https://github.com/fmi/java-course/tree/master).
 
+## Course topics
+
+- Lab 01 - Introduction to Java
+- Lab 02 - Object-Oriented Programming (Part 1)
+- Lab 02 - Object-Oriented Programming (Part 2)
+
 ## Note
 
 I am currently enrolled in the **Modern Java Technologies** course during the academic year **2024/25** at **Sofia University**. This repository contains my solutions as I work through the weekly exercises, projects, and course material.
