@@ -1,4 +1,4 @@
-### :warning: [ORIGINAL DESCRIPTION](https://github.com/fmi/java-course/tree/master/03-oop-in-java-ii/lab) :warning:
+### :warning: [ORIGINAL TASK](https://github.com/fmi/java-course/tree/master/03-oop-in-java-ii/lab) :warning:
 
 # Обектно-ориентирано програмиране с Java (част II)
 
