@@ -1,3 +1,5 @@
+### ⚠️ [ORIGINAL TASK](https://github.com/fmi/java-course/tree/master/01-intro-to-java/lab/02-text-justifier) ⚠️
+
 ## Подравнител на текст 📄
 
 ### Условие
