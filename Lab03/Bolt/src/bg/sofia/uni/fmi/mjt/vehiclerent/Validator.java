@@ -22,13 +22,13 @@ public class Validator {
         }
     }
 
-    public static void validateVehicleAlreadyRented(Vehicle vehicle) throws VehicleAlreadyRentedException {
+    public static void validateVehicleAlreadyRented(Vehicle vehicle) {
         if (vehicle.isRented()) {
             throw new VehicleAlreadyRentedException("Vehicle is already rented");
         }
     }
 
-    public static void validateVehicleNotRented(Vehicle vehicle) throws VehicleAlreadyRentedException {
+    public static void validateVehicleNotRented(Vehicle vehicle) {
         if (!vehicle.isRented()) {
             throw new VehicleNotRentedException("Vehicle is not rented at all");
         }

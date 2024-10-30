@@ -5,6 +5,7 @@ import bg.sofia.uni.fmi.mjt.vehiclerent.exception.InvalidRentingPeriodException;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 public sealed class Car extends Vehicle implements Rentable permits Caravan {
     protected final static int PRICE_PER_SEAT = 5;
@@ -34,13 +35,12 @@ public sealed class Car extends Vehicle implements Rentable permits Caravan {
         super.rented = false;
     }
 
-    protected double calculatePrice(LocalDateTime startOfRent, LocalDateTime endOfRent, int numberOfSeats, int numberOfBeds, int driverFee, int fuelFee) {
+    protected double calculatePrice(LocalDateTime startOfRent, LocalDateTime endOfRent, int numberOfSeats, int numberOfBeds, int driverFee, int fuelFee) throws InvalidRentingPeriodException {
         Validator.validateNotNull(startOfRent, "The start rent time passed as argument in the calculate price method is null");
         Validator.validateNotNull(endOfRent, "The end rent time passed as argument in the calculate price method is null");
         Validator.validateRentPeriod(startOfRent, endOfRent);
 
-        Duration duration = Duration.between(startOfRent, endOfRent);
-        long totalHours = duration.toHours();
+        long totalHours = startOfRent.until(endOfRent, ChronoUnit.HOURS);
 
         long weeks = totalHours / (24 * 7);
         long remainingHoursAfterWeeks = totalHours % (24 * 7);

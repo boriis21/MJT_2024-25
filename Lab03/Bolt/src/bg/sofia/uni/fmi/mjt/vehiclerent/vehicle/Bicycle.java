@@ -3,8 +3,8 @@ package bg.sofia.uni.fmi.mjt.vehiclerent.vehicle;
 import bg.sofia.uni.fmi.mjt.vehiclerent.Validator;
 import bg.sofia.uni.fmi.mjt.vehiclerent.exception.InvalidRentingPeriodException;
 
-import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 public final class Bicycle extends Vehicle implements Rentable {
     private final double pricePerDay;
@@ -36,8 +36,7 @@ public final class Bicycle extends Vehicle implements Rentable {
             return pricePerHour;
         }
 
-        Duration duration = Duration.between(startOfRent, endOfRent);
-        long totalHours = duration.toHours();
+        long totalHours = startOfRent.until(endOfRent, ChronoUnit.HOURS);
 
         long days = totalHours / 24;
         long hours = totalHours % 24;
