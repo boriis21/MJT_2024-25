@@ -1,3 +1,5 @@
+### :warning: [ORIGINAL TASK](https://github.com/fmi/java-course/tree/master/02-oop-in-java-i/lab) :warning:
+
 # Обектно-ориентирано програмиране с Java (част I)
 
 ## GameStore :video_game: :shopping_cart:

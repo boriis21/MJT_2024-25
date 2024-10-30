@@ -1,3 +1,5 @@
+### ⚠️ [ORIGINAL TASK](https://github.com/fmi/java-course/tree/master/01-intro-to-java/lab/01-course-scheduler) ⚠️
+
 ## Разписание на курсовете 🗓️
 
 ### Условие
