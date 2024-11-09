@@ -19,7 +19,9 @@ You can explore more about the course structure and content [here](https://githu
 
 - Lab 01 - Introduction to Java
 - Lab 02 - Object-Oriented Programming (Part 1)
-- Lab 02 - Object-Oriented Programming (Part 2)
+- Lab 03 - Object-Oriented Programming (Part 2)
+- Lab 04 - Collections | Clean Code
+- Lab 05 - Generics
 
 ## Note
 
