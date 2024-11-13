@@ -1,3 +1,6 @@
+### :warning: [ORIGINAL TASK](https://github.com/fmi/java-course/tree/master/04-collections-clean-code/lab) :warning:
+
+
 # Social Network :speech_balloon:
 
 Тази седмица ще запретнем ръкави и създадем проста социална мрежа, която ще моделира потребители, мрежи от приятелства, постове и реакции.
