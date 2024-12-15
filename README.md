@@ -23,6 +23,9 @@ You can explore more about the course structure and content [here](https://githu
 - 🗂️ Lab 04 - Collections | Clean Code
 - 🔢 Lab 05 - Generics
 - 🧪 Lab 06 - Unit Testing & Mocking
+- 💾 Lab 07 - I/O Streams and Files
+- 🔲 Lab 08 - Lambdas and Stream API
+- 🧵 Lab 09 - Threads
 
 ## ⚠️ Disclaimer
 
